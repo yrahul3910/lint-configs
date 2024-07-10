@@ -1,5 +1,5 @@
 [tool.ruff]
-select = ["E", "W", "F", "I001", "RUF002", "RUF100", "RUF013", "RUF010", "RUF200"]
+select = ["E", "W", "F", "S", "B", "I001", "RUF002", "RUF100", "RUF013", "RUF010", "RUF200"]
 
 exclude = [
     ".DS_Store",
