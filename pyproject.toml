@@ -1,6 +1,4 @@
 [tool.ruff]
-select = ["E", "W", "F", "S", "B", "I001", "RUF002", "RUF100", "RUF013", "RUF010", "RUF200"]
-
 exclude = [
     ".DS_Store",
     ".git",
@@ -14,6 +12,7 @@ target-version = "py312"
 
 [tool.ruff.lint]
 preview = true
+select = ["E", "W", "F", "S", "B", "I001", "RUF002", "RUF100", "RUF013", "RUF010", "RUF200"]
 
 [tool.ruff.lint.isort]
 lines-after-imports = 2
